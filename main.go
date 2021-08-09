@@ -15,8 +15,9 @@ func main() {
 	if err != nil {
 		log.Print(err)
 	}
+
 	message := linebot.NewTextMessage("go-linebot!")
 	if _, err := bot.BroadcastMessage(message).Do(); err != nil {
-		log.Fatal(err)
+		log.Print(err)
 	}
 }
