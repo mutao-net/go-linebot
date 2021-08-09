@@ -18,5 +18,4 @@ $ vi go.mod
 ```
 // +heroku goVersion go1.16
 ```
-
-![image](https://user-images.githubusercontent.com/35423021/128667605-3bcbb57a-99ec-40d7-ba23-a9fe376e4d3d.png)
+![image](https://user-images.githubusercontent.com/35423021/128667673-aeb72f8e-fedf-437f-852d-307c2bfc5a10.png)
