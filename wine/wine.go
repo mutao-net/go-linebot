@@ -2,7 +2,6 @@ package wine
 
 import (
 	"encoding/json"
-	"fmt"
 	"log"
 	"net/http"
 	"net/url"
@@ -55,9 +54,6 @@ func getItems(url string) ResponesResults {
 	json.NewDecoder(response.Body).Decode(&results)
 	if err != nil {
 		log.Fatal(err)
-	}
-	for _, result := range results.Items {
-		fmt.Println(result.Item.ItemName)
 	}
 	return results
 }
